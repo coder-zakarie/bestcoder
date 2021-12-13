@@ -1,0 +1,50 @@
+body{
+    margin: 0px; padding:0px 100px 0px 100px;
+    background-color: rgb(224, 59, 84);
+    color: #fff; font-size: 20px;
+    background-image: url("images/bgImage.jpg");
+}
+body h1{font-size: 50px; font-weight: bold; font-family: 'Times New Roman', Times, serif;}
+header{
+    height: 200px; text-align: center;
+}
+section{text-align: center;}
+/*#icon{display: flex; align-items: center;}-*/
+.facebook{ background-image: url("images/facebook.png");}
+#icon{display: flex; justify-content: space-around;
+    width: 300px;
+    text-align: center;
+    margin-left: 420px;
+}
+#img:hover, .proj:hover{opacity: 0.5;}
+.apropos{
+    height: 500px; background-color: #fff; color: #000;
+}
+.conteneur{display: flex; justify-content: space-around; text-align: center;}
+#img{ width: 300px; height: 300px; background-image: url("images/pg.jpg"); margin-left: 50px; margin-right: 50px; border-radius: 50%;}
+#text{ width: 40%; height: auto;}
+.img1{background-image: url("images/profil.jpg"); filter: opacity(2); width: 100%; height: 200px; }
+.img2{background-image: url("images/projet2.jpg"); width: 100%; height: 200px;}
+.img3{background-image: url("images/projet3.jpg"); width: 100%; height: 200px;}
+#competences{background-color: #fff; color: #000; text-align: center;}
+#columns{ height: 450px; column-count: 2; column-gap: 3px; column-rule: 4px solid  rgb(10, 200, 200); background-color: #fff;
+    
+}
+#columns h3{
+    break-inside: column;
+ }
+ img:hover{opacity: 0.3;}
+ #contacter, .langues{ color: black; margin-top:-40px; text-align: center;}
+.langues{background-color: #fff;}
+#userInfo{display: flex; flex-flow: row nowrap; justify-content: space-around; height: 40px;}
+#userName,#unMail{ width:40%; border: solid #fff 2px; border-radius: 10px; transition: all 1s ease-out; background-color: none; opacity: 0.4; font-size: 20px ; font-weight: bold;}
+#userName:focus,#unMail:focus{transform:scaleX(1.1);}
+#objet:focus{transform:scaleX(1.1);}
+#message:focus{transform:scaleX(1.1);}
+#objet, #message{display: block; width: 1020px; margin: 20px 2px 20px 60px; opacity: 0.4; font-size: 20px; font-weight: bold;transition: all 1s ease-out;}
+#objet{height: 40px;}
+#messsage{height: 200px; color: #000; }
+#envoyer{width: 120px;height: 45px; margin-bottom: 20px; font-size: 30px; background-color: #4f2; border-radius: 5px;transition: all 1s ease-out; position: relative; right: -400px;}
+#footer{
+    height: 200px; font-size: 25px; font-weight: bolder; font-family: Arial, Helvetica, sans-serif; font-style: oblique;
+background-color: rgb(59, 75, 72); margin: 0px -100px; text-align: center;}
